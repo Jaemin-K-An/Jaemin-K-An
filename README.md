@@ -24,22 +24,32 @@
 
 ## 01 / Tech stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-0D1116?style=for-the-badge&amp;logo=python&amp;logoColor=2A00FF" alt="Python" />
-  <img src="https://img.shields.io/badge/C-0D1116?style=for-the-badge&amp;logo=c&amp;logoColor=2A00FF" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-0D1116?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=2A00FF" alt="C++" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1116?style=for-the-badge&amp;logo=typescript&amp;logoColor=2A00FF" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-0D1116?style=for-the-badge&amp;logo=react&amp;logoColor=2A00FF" alt="React" />
-  <img src="https://img.shields.io/badge/TensorFlow-0D1116?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=2A00FF" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/PyTorch-0D1116?style=for-the-badge&amp;logo=pytorch&amp;logoColor=2A00FF" alt="PyTorch" />
-  <br />
-  <img src="https://img.shields.io/badge/MySQL-0D1116?style=for-the-badge&amp;logo=mysql&amp;logoColor=2A00FF" alt="MySQL" />
-  <img src="https://img.shields.io/badge/HTML5-0D1116?style=for-the-badge&amp;logo=html5&amp;logoColor=2A00FF" alt="HTML" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0D1116?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=2A00FF" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/CSS3-0D1116?style=for-the-badge&amp;logo=css&amp;logoColor=2A00FF" alt="CSS" />
-  <img src="https://img.shields.io/badge/Java-0D1116?style=for-the-badge&amp;logo=openjdk&amp;logoColor=2A00FF" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-0D1116?style=for-the-badge&amp;logo=javascript&amp;logoColor=2A00FF" alt="JavaScript" />
-</p>
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <strong>LANGUAGES</strong><br /><br />
+      <img src="https://img.shields.io/badge/Python-2A00FF?style=for-the-badge&amp;logo=python&amp;logoColor=FFFFFF" alt="Python" />
+      <img src="https://img.shields.io/badge/C-2A00FF?style=for-the-badge&amp;logo=c&amp;logoColor=FFFFFF" alt="C" />
+      <img src="https://img.shields.io/badge/C%2B%2B-2A00FF?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=FFFFFF" alt="C++" />
+      <img src="https://img.shields.io/badge/Java-2A00FF?style=for-the-badge&amp;logo=openjdk&amp;logoColor=FFFFFF" alt="Java" />
+      <img src="https://img.shields.io/badge/JavaScript-2A00FF?style=for-the-badge&amp;logo=javascript&amp;logoColor=FFFFFF" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/TypeScript-2A00FF?style=for-the-badge&amp;logo=typescript&amp;logoColor=FFFFFF" alt="TypeScript" />
+    </td>
+    <td width="33%" align="center" valign="top">
+      <strong>AI &amp; DATA</strong><br /><br />
+      <img src="https://img.shields.io/badge/TensorFlow-2A00FF?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=FFFFFF" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/PyTorch-2A00FF?style=for-the-badge&amp;logo=pytorch&amp;logoColor=FFFFFF" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/MySQL-2A00FF?style=for-the-badge&amp;logo=mysql&amp;logoColor=FFFFFF" alt="MySQL" />
+    </td>
+    <td width="33%" align="center" valign="top">
+      <strong>WEB</strong><br /><br />
+      <img src="https://img.shields.io/badge/React-2A00FF?style=for-the-badge&amp;logo=react&amp;logoColor=FFFFFF" alt="React" />
+      <img src="https://img.shields.io/badge/HTML5-2A00FF?style=for-the-badge&amp;logo=html5&amp;logoColor=FFFFFF" alt="HTML" />
+      <img src="https://img.shields.io/badge/CSS3-2A00FF?style=for-the-badge&amp;logo=css&amp;logoColor=FFFFFF" alt="CSS" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-2A00FF?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=FFFFFF" alt="Tailwind CSS" />
+    </td>
+  </tr>
+</table>
 
 ## 02 / Current work
 
@@ -69,17 +79,29 @@
   <tr>
     <td width="33%" align="center">
       <a href="https://github.com/Jaemin-K-An">
-        <img src="./assets/card-github.svg" width="100%" alt="GitHub profile" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-github-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-github-light.svg" />
+          <img src="./assets/card-github-light.svg" width="100%" alt="GitHub profile" />
+        </picture>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/Jaemin-K-An?tab=repositories">
-        <img src="./assets/card-work.svg" width="100%" alt="Current work" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-work-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-work-light.svg" />
+          <img src="./assets/card-work-light.svg" width="100%" alt="Current work" />
+        </picture>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://solved.ac/oney0000/">
-        <img src="./assets/card-solved.svg" width="100%" alt="Solved.ac profile for oney0000" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-solved-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-solved-light.svg" />
+          <img src="./assets/card-solved-light.svg" width="100%" alt="Solved.ac profile for oney0000" />
+        </picture>
       </a>
     </td>
   </tr>
