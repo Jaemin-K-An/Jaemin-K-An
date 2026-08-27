@@ -29,30 +29,21 @@ const invalidColors = svgFiles.flatMap((filename) => {
     .map((color) => `${filename}: ${color}`);
 });
 
-const remoteBase =
-  "https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/";
-const remoteAssets = [
-  "tech-stack",
-  "project-audire",
-  "project-concordia",
-  "project-sensus",
-  "timeline",
-  "card-languages",
-  "card-commit-time",
-  "card-solved",
-].flatMap((name) => [`${name}-light.svg`, `${name}-dark.svg`]);
-const missingRemoteAssets = remoteAssets.filter(
-  (filename) => !readme.includes(`${remoteBase}${filename}`),
-);
-const legacyLocalBoxes = [...assetReferences].filter(
-  (filename) => filename.startsWith("card-") || filename.startsWith("timeline-"),
+const requiredThemePairs = [
+  ["timeline-light.svg", "timeline-dark.svg"],
+  ...["languages", "commit-time", "solved"].map((name) => [
+    `card-${name}-light.svg`,
+    `card-${name}-dark.svg`,
+  ]),
+].flat();
+const missingThemeCards = requiredThemePairs.filter(
+  (filename) => !existsSync(resolve(root, "assets", filename)),
 );
 
 const failures = [
   ...missingAssets.map((filename) => `Missing README asset: ${filename}`),
   ...invalidColors.map((entry) => `Disallowed SVG color: ${entry}`),
-  ...missingRemoteAssets.map((filename) => `Missing remote theme asset: ${filename}`),
-  ...legacyLocalBoxes.map((filename) => `Legacy local box reference: ${filename}`),
+  ...missingThemeCards.map((filename) => `Missing theme card: ${filename}`),
 ];
 
 if (failures.length > 0) {
@@ -60,6 +51,6 @@ if (failures.length > 0) {
   process.exitCode = 1;
 } else {
   console.log(
-    `README validation passed: ${assetReferences.size} local references, ${svgFiles.length} local SVG assets, ${remoteAssets.length} remote box assets.`,
+    `README validation passed: ${assetReferences.size} references, ${svgFiles.length} SVG assets, 4 theme-asset pairs.`,
   );
 }
