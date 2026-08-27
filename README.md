@@ -1,39 +1,47 @@
-<!-- Brand assets are adapted from Figma nodes 1:2, 1:7, and 3:10. -->
+<!-- Figma source: OeFbOcvsRx2VXisNkJ5roD · Naming 1:2/28:4 · Symbol 28:2 -->
 
 <p align="center">
-  <img src="./assets/naming-image.png" width="100%" alt="An ‘orcidsharx’ Jaemin" />
-</p>
-
-<p align="center">
-  <em>My dream is Archmage 🪄</em><br />
-  <sub>Student developer at Daejeon Daeshin High School · building with AI, optimization, and the web.</sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&amp;logo=python&amp;logoColor=8BCD8F" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&amp;logo=typescript&amp;logoColor=8BCD8F" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/HTML-111111?style=flat-square&amp;logo=html5&amp;logoColor=8BCD8F" alt="HTML" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/naming-image-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/naming-image-light.png" />
+    <img src="./assets/naming-image-light.png" width="100%" alt="An ‘orcidsharx’ Jaemin" />
+  </picture>
 </p>
 
 <table>
   <tr>
-    <td width="34%" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/symbol-type1-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./assets/symbol-type1.svg" />
-        <img src="./assets/symbol-type1.svg" width="230" alt="orcidsharx symbol" />
-      </picture>
-    </td>
-    <td width="66%" valign="middle">
-      <h2>Hi, I'm Jaemin.</h2>
-      <p>I like turning a difficult, slightly strange problem into something people can actually use.</p>
-      <p>These days I am exploring personalized speech perception, congestion-aware navigation, and accessible interfaces.</p>
+    <td width="68%" valign="middle">
+      <h2>Jaemin / orcidsharx</h2>
+      <p><strong>Student developer at Daejeon Daeshin High School.</strong></p>
+      <p>I turn difficult, slightly strange problems into things people can actually use—across AI, optimization, accessibility, and the web.</p>
       <p><code>observe</code> → <code>model</code> → <code>build</code> → <code>iterate</code></p>
+    </td>
+    <td width="32%" align="center">
+      <img src="./assets/symbol.svg" width="220" height="162" alt="orcidsharx symbol" />
     </td>
   </tr>
 </table>
 
-## Current spellbook
+## 01 / Tech stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-0D1116?style=for-the-badge&amp;logo=python&amp;logoColor=2A00FF" alt="Python" />
+  <img src="https://img.shields.io/badge/C-0D1116?style=for-the-badge&amp;logo=c&amp;logoColor=2A00FF" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-0D1116?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=2A00FF" alt="C++" />
+  <img src="https://img.shields.io/badge/TypeScript-0D1116?style=for-the-badge&amp;logo=typescript&amp;logoColor=2A00FF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-0D1116?style=for-the-badge&amp;logo=react&amp;logoColor=2A00FF" alt="React" />
+  <img src="https://img.shields.io/badge/TensorFlow-0D1116?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=2A00FF" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/PyTorch-0D1116?style=for-the-badge&amp;logo=pytorch&amp;logoColor=2A00FF" alt="PyTorch" />
+  <br />
+  <img src="https://img.shields.io/badge/MySQL-0D1116?style=for-the-badge&amp;logo=mysql&amp;logoColor=2A00FF" alt="MySQL" />
+  <img src="https://img.shields.io/badge/HTML5-0D1116?style=for-the-badge&amp;logo=html5&amp;logoColor=2A00FF" alt="HTML" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0D1116?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=2A00FF" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/CSS3-0D1116?style=for-the-badge&amp;logo=css&amp;logoColor=2A00FF" alt="CSS" />
+  <img src="https://img.shields.io/badge/Java-0D1116?style=for-the-badge&amp;logo=openjdk&amp;logoColor=2A00FF" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-0D1116?style=for-the-badge&amp;logo=javascript&amp;logoColor=2A00FF" alt="JavaScript" />
+</p>
+
+## 02 / Current work
 
 <table>
   <tr>
@@ -55,28 +63,30 @@
   </tr>
 </table>
 
-## Signals
+## 03 / Signals
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://github.com/Jaemin-K-An">
+        <img src="./assets/card-github.svg" width="100%" alt="GitHub profile" />
+      </a>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/Jaemin-K-An?tab=repositories">
+        <img src="./assets/card-work.svg" width="100%" alt="Current work" />
+      </a>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://solved.ac/oney0000/">
+        <img src="./assets/card-solved.svg" width="100%" alt="Solved.ac profile for oney0000" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaemin-K-An&amp;theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaemin-K-An&amp;theme=github" />
-    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jaemin-K-An&amp;theme=github" alt="Jaemin's GitHub activity summary" />
-  </picture>
-</p>
-
-<p align="center">
-  <a href="https://solved.ac/oney0000/">
-    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=oney0000" alt="Solved.ac profile for oney0000" />
-  </a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/symbol-type2-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/symbol-type2.svg" />
-    <img src="./assets/symbol-type2.svg" width="110" alt="orcidsharx symbol" />
-  </picture>
+  <img src="./assets/symbol.svg" width="96" height="71" alt="orcidsharx symbol" />
   <br />
-  <sub><a href="https://github.com/Jaemin-K-An">github.com/Jaemin-K-An</a></sub>
+  <sub>My dream is Archmage 🪄</sub>
 </p>
