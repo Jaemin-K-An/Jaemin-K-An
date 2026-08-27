@@ -31,7 +31,7 @@ const invalidColors = svgFiles.flatMap((filename) => {
 
 const requiredThemePairs = [
   ["timeline-light.svg", "timeline-dark.svg"],
-  ...["github", "work", "solved"].map((name) => [
+  ...["languages", "codebase", "solved"].map((name) => [
     `card-${name}-light.svg`,
     `card-${name}-dark.svg`,
   ]),

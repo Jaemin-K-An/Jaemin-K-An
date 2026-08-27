@@ -56,19 +56,19 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/Jaemin-K-An/Audire">Audire</a></h3>
-      <p>Personalized speech-perception profiling for Korean mishearing prediction and selective captioning.</p>
-      <p><code>Python</code> · speech · accessibility</p>
+      <strong><a href="https://github.com/Jaemin-K-An/Audire">Audire</a></strong><br /><br />
+      Personalized speech-perception profiling for Korean mishearing prediction and selective captioning.<br /><br />
+      <code>Python</code> · speech · accessibility
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/Jaemin-K-An/Concordia">Concordia</a></h3>
-      <p>Congestion-aware optimization and reinforcement of driver-interest alignment for coordinated navigation.</p>
-      <p><code>Python</code> · optimization · navigation</p>
+      <strong><a href="https://github.com/Jaemin-K-An/Concordia">Concordia</a></strong><br /><br />
+      Congestion-aware optimization and reinforcement of driver-interest alignment for coordinated navigation.<br /><br />
+      <code>Python</code> · optimization · navigation
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/Jaemin-K-An/Sensus">Sensus</a></h3>
-      <p>An instruction-oriented accessibility project for people with visual impairments.</p>
-      <p><code>TypeScript</code> · web · accessibility</p>
+      <strong><a href="https://github.com/Jaemin-K-An/Sensus">Sensus</a></strong><br /><br />
+      An instruction-oriented accessibility project for people with visual impairments.<br /><br />
+      <code>TypeScript</code> · web · accessibility
     </td>
   </tr>
 </table>
@@ -86,20 +86,20 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <a href="https://github.com/Jaemin-K-An">
+      <a href="https://github.com/Jaemin-K-An?tab=repositories">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-github-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-github-light.svg" />
-          <img src="./assets/card-github-light.svg" width="100%" alt="GitHub profile" />
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-languages-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-languages-light.svg" />
+          <img src="./assets/card-languages-light.svg" width="100%" alt="Public repository language distribution: Python 80.6%, TypeScript 6.0%, HTML 5.7%, JavaScript 4.9%, and other languages 2.8%." />
         </picture>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/Jaemin-K-An?tab=repositories">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-work-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-work-light.svg" />
-          <img src="./assets/card-work-light.svg" width="100%" alt="Current work" />
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-codebase-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-codebase-light.svg" />
+          <img src="./assets/card-codebase-light.svg" width="100%" alt="Codebase snapshot: 13 public repositories, 9 detected languages, and 3 active builds." />
         </picture>
       </a>
     </td>
