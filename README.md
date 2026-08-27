@@ -11,10 +11,10 @@
 <table>
   <tr>
     <td width="68%" valign="middle">
-      <h2>Jaemin / orcidsharx</h2>
-      <p>Hello! I'm <strong>Jaemin An</strong>, a developer who goes by <strong>orcidsharx</strong>.</p>
-      <p>I started programming in fifth grade after discovering <strong>C</strong>, and I have since been exploring a wide range of fields, including algorithms, web development, and AI.</p>
-      <p>I'm especially interested in <strong>design, optimization, and NLP</strong>.</p>
+      <strong>Jaemin / orcidsharx</strong><br /><br />
+      Hello! I'm <strong>Jaemin An</strong>, a developer who goes by <strong>orcidsharx</strong>.<br /><br />
+      I started programming in fifth grade after discovering <strong>C</strong>, and I have since been exploring a wide range of fields, including algorithms, web development, and AI.<br /><br />
+      I'm especially interested in <strong>design, optimization, and NLP</strong>.
     </td>
     <td width="32%" align="center">
       <img src="./assets/symbol.svg" width="220" height="162" alt="orcidsharx symbol" />
@@ -24,51 +24,42 @@
 
 ## 01 / Tech stack
 
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <strong>LANGUAGES</strong><br /><br />
-      <img src="https://img.shields.io/badge/Python-2A00FF?style=for-the-badge&amp;logo=python&amp;logoColor=FFFFFF" alt="Python" />
-      <img src="https://img.shields.io/badge/C-2A00FF?style=for-the-badge&amp;logo=c&amp;logoColor=FFFFFF" alt="C" />
-      <img src="https://img.shields.io/badge/C%2B%2B-2A00FF?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=FFFFFF" alt="C++" />
-      <img src="https://img.shields.io/badge/Java-2A00FF?style=for-the-badge&amp;logo=openjdk&amp;logoColor=FFFFFF" alt="Java" />
-      <img src="https://img.shields.io/badge/JavaScript-2A00FF?style=for-the-badge&amp;logo=javascript&amp;logoColor=FFFFFF" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-2A00FF?style=for-the-badge&amp;logo=typescript&amp;logoColor=FFFFFF" alt="TypeScript" />
-    </td>
-    <td width="33%" align="center" valign="top">
-      <strong>AI &amp; DATA</strong><br /><br />
-      <img src="https://img.shields.io/badge/TensorFlow-2A00FF?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=FFFFFF" alt="TensorFlow" />
-      <img src="https://img.shields.io/badge/PyTorch-2A00FF?style=for-the-badge&amp;logo=pytorch&amp;logoColor=FFFFFF" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/MySQL-2A00FF?style=for-the-badge&amp;logo=mysql&amp;logoColor=FFFFFF" alt="MySQL" />
-    </td>
-    <td width="33%" align="center" valign="top">
-      <strong>WEB</strong><br /><br />
-      <img src="https://img.shields.io/badge/React-2A00FF?style=for-the-badge&amp;logo=react&amp;logoColor=FFFFFF" alt="React" />
-      <img src="https://img.shields.io/badge/HTML5-2A00FF?style=for-the-badge&amp;logo=html5&amp;logoColor=FFFFFF" alt="HTML" />
-      <img src="https://img.shields.io/badge/CSS3-2A00FF?style=for-the-badge&amp;logo=css&amp;logoColor=FFFFFF" alt="CSS" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-2A00FF?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=FFFFFF" alt="Tailwind CSS" />
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/tech-stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/tech-stack-light.svg" />
+  <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/tech-stack-light.svg" width="100%" alt="Tech stack: Python, C, C++, Java, JavaScript, TypeScript, TensorFlow, PyTorch, MySQL, React, HTML, CSS, and Tailwind CSS." />
+</picture>
 
 ## 02 / Current work
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <strong><a href="https://github.com/Jaemin-K-An/Audire">Audire</a></strong><br /><br />
-      Personalized speech-perception profiling for Korean mishearing prediction and selective captioning.<br /><br />
-      <code>Python</code> · speech · accessibility
+      <a href="https://github.com/Jaemin-K-An/Audire">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-audire-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-audire-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-audire-light.svg" width="100%" alt="Audire: personalized speech-perception profiling and selective captioning." />
+        </picture>
+      </a>
     </td>
     <td width="33%" valign="top">
-      <strong><a href="https://github.com/Jaemin-K-An/Concordia">Concordia</a></strong><br /><br />
-      Congestion-aware optimization and reinforcement of driver-interest alignment for coordinated navigation.<br /><br />
-      <code>Python</code> · optimization · navigation
+      <a href="https://github.com/Jaemin-K-An/Concordia">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-concordia-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-concordia-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-concordia-light.svg" width="100%" alt="Concordia: congestion-aware optimization for coordinated navigation." />
+        </picture>
+      </a>
     </td>
     <td width="33%" valign="top">
-      <strong><a href="https://github.com/Jaemin-K-An/Sensus">Sensus</a></strong><br /><br />
-      An instruction-oriented accessibility project for people with visual impairments.<br /><br />
-      <code>TypeScript</code> · web · accessibility
+      <a href="https://github.com/Jaemin-K-An/Sensus">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-sensus-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-sensus-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/project-sensus-light.svg" width="100%" alt="Sensus: instruction-oriented accessibility for people with visual impairments." />
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
@@ -76,9 +67,9 @@
 ## 03 / Timeline
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg" />
-  <img src="./assets/timeline-light.svg" width="100%" alt="Education timeline: born in 2008; Daejeon St. Mary's Elementary School from March 2015 to February 2021, graduated; Daejeon Munjeong Middle School from March 2021 to February 2024, graduated; Daejeon Daeshin High School from March 2024 to present, A.C.T developer club in the first year and FINDER STEAM club in the second and third years, expected graduation February 2027." />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/timeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/timeline-light.svg" />
+  <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/timeline-light.svg" width="100%" alt="Education timeline: Daejeon St. Mary's Elementary School, Daejeon Munjeong Middle School, and Daejeon Daeshin High School; A.C.T developer club in the first year and FINDER STEAM club in the second and third years." />
 </picture>
 
 ## 04 / Signals
@@ -88,27 +79,27 @@
     <td width="33%" align="center">
       <a href="https://github.com/Jaemin-K-An?tab=repositories">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-languages-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-languages-light.svg" />
-          <img src="./assets/card-languages-light.svg" width="100%" alt="Public repository language distribution: Python 80.6%, TypeScript 6.0%, HTML 5.7%, JavaScript 4.9%, and other languages 2.8%." />
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-languages-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-languages-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-languages-light.svg" width="100%" alt="Live public repository language distribution." />
         </picture>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/Jaemin-K-An">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-commit-time-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-commit-time-light.svg" />
-          <img src="./assets/card-commit-time-light.svg" width="100%" alt="Commit-time distribution for 217 recent public commits: the most active three-hour period is 12:00 to 15:00 Korea Standard Time, with 64 commits." />
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-commit-time-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-commit-time-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-commit-time-light.svg" width="100%" alt="Live three-hour commit-time distribution in Korea Standard Time." />
         </picture>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://solved.ac/oney0000/">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-solved-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-solved-light.svg" />
-          <img src="./assets/card-solved-light.svg" width="100%" alt="Solved.ac profile for oney0000" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-solved-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-solved-light.svg" />
+          <img src="https://raw.githubusercontent.com/Jaemin-K-An/readme-boxes/main/dist/card-solved-light.svg" width="100%" alt="Solved.ac profile for oney0000" />
         </picture>
       </a>
     </td>
