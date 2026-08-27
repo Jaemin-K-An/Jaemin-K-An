@@ -12,9 +12,9 @@
   <tr>
     <td width="68%" valign="middle">
       <h2>Jaemin / orcidsharx</h2>
-      <p><strong>Student developer at Daejeon Daeshin High School.</strong></p>
-      <p>I turn difficult, slightly strange problems into things people can actually use—across AI, optimization, accessibility, and the web.</p>
-      <p><code>observe</code> → <code>model</code> → <code>build</code> → <code>iterate</code></p>
+      <p>Hello! I'm <strong>Jaemin An</strong>, a developer who goes by <strong>orcidsharx</strong>.</p>
+      <p>I started programming in fifth grade after discovering <strong>C</strong>, and I have since been exploring a wide range of fields, including algorithms, web development, and AI.</p>
+      <p>I'm especially interested in <strong>design, optimization, and NLP</strong>.</p>
     </td>
     <td width="32%" align="center">
       <img src="./assets/symbol.svg" width="220" height="162" alt="orcidsharx symbol" />
