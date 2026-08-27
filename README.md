@@ -95,11 +95,11 @@
       </a>
     </td>
     <td width="33%" align="center">
-      <a href="https://github.com/Jaemin-K-An?tab=repositories">
+      <a href="https://github.com/Jaemin-K-An">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-codebase-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/card-codebase-light.svg" />
-          <img src="./assets/card-codebase-light.svg" width="100%" alt="Codebase snapshot: 13 public repositories, 9 detected languages, and 3 active builds." />
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-commit-time-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/card-commit-time-light.svg" />
+          <img src="./assets/card-commit-time-light.svg" width="100%" alt="Commit-time distribution for 217 recent public commits: the most active three-hour period is 12:00 to 15:00 Korea Standard Time, with 64 commits." />
         </picture>
       </a>
     </td>
