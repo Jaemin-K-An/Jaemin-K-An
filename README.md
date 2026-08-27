@@ -73,7 +73,15 @@
   </tr>
 </table>
 
-## 03 / Signals
+## 03 / Timeline
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg" />
+  <img src="./assets/timeline-light.svg" width="100%" alt="Education timeline: born in 2008; Daejeon St. Mary's Elementary School from March 2015 to February 2021, graduated; Daejeon Munjeong Middle School from March 2021 to February 2024, graduated; Daejeon Daeshin High School from March 2024 to present, A.C.T developer club in the first year and FINDER STEAM club in the second and third years, expected graduation February 2027." />
+</picture>
+
+## 04 / Signals
 
 <table>
   <tr>

@@ -29,10 +29,13 @@ const invalidColors = svgFiles.flatMap((filename) => {
     .map((color) => `${filename}: ${color}`);
 });
 
-const requiredThemePairs = ["github", "work", "solved"].flatMap((name) => [
-  `card-${name}-light.svg`,
-  `card-${name}-dark.svg`,
-]);
+const requiredThemePairs = [
+  ["timeline-light.svg", "timeline-dark.svg"],
+  ...["github", "work", "solved"].map((name) => [
+    `card-${name}-light.svg`,
+    `card-${name}-dark.svg`,
+  ]),
+].flat();
 const missingThemeCards = requiredThemePairs.filter(
   (filename) => !existsSync(resolve(root, "assets", filename)),
 );
@@ -48,6 +51,6 @@ if (failures.length > 0) {
   process.exitCode = 1;
 } else {
   console.log(
-    `README validation passed: ${assetReferences.size} references, ${svgFiles.length} SVG assets, 3 theme-card pairs.`,
+    `README validation passed: ${assetReferences.size} references, ${svgFiles.length} SVG assets, 4 theme-asset pairs.`,
   );
 }
